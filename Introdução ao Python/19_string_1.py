@@ -1,3 +1,4 @@
+# FORMATAÇÃO, REMOVER ESPAÇOS E CENTRALIZAR TÍTULOS
 nome = "gUIlerMe"
 
 # Formatação de palavras
@@ -16,10 +17,10 @@ print(texto + ".")
 # remove espaços das laterais
 print(texto.strip() + ".")
 
-# remove espaços da esquerda
+# remove espaços da direita
 print(texto.rstrip() + ".")
 
-# remove espaços da direita
+# remove espaços da esquerda
 print(texto.lstrip() + ".")
 
 menu = "Python"
@@ -33,4 +34,4 @@ print(menu.center(14))
 print(menu.center(14, "#"))
 
 # insere o caracter desejado intercalando a cada caracter da string
-print("-".join(menu))
+print("-".join(menu))    
