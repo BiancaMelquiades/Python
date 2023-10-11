@@ -1,3 +1,4 @@
+# verifica o tamanho da lista/quantidade de elementos
 linguagens = (
     "python",
     "js",

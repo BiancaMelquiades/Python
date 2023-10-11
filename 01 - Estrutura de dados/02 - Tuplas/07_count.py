@@ -1,3 +1,4 @@
+# método para contar quantas vezes o valor aparece
 cores = (
     "vermelho",
     "azul",
