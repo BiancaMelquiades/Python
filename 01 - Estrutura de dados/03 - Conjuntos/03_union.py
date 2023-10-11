@@ -1,4 +1,4 @@
-# união "U", como a função matemática
+# união "U", (A + B)
 conjunto_a = {1, 2}
 conjunto_b = {3, 4}
 

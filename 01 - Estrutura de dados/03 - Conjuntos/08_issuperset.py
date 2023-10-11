@@ -1,3 +1,4 @@
+# nem todos os elementos de B estã em A, mas todos os elementos de A estão em B
 conjunto_a = {1, 2, 3}
 conjunto_b = {4, 1, 2, 5, 6, 3}
 
