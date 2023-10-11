@@ -1,4 +1,4 @@
-# numerar a lista
+# numerar a tupla
 carros = (
     "gol",
     "celta",
