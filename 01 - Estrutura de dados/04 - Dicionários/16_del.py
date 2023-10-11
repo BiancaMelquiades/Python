@@ -1,3 +1,5 @@
+# deleta objeto
+# obs: se escrever "del contatos" iria deletar a bibliotca inteira
 contatos = {
     "guilherme@gmail.com": {"nome": "Guilherme", "telefone": "3333-2221"},
     "giovanna@gmail.com": {"nome": "Giovanna", "telefone": "3443-2121"},
@@ -5,7 +7,10 @@ contatos = {
     "melaine@gmail.com": {"nome": "Melaine", "telefone": "3333-7766"},
 }
 
+# deletou apenas a chave telefone
 del contatos["guilherme@gmail.com"]["telefone"]
+
+# deletou a chave inteira
 del contatos["chappie@gmail.com"]
 
 # {'guilherme@gmail.com': {'nome': 'Guilherme'}, 'giovanna@gmail.com': {'nome': 'Giovanna', 'telefone': '3443-2121'}, 'melaine@gmail.com': {'nome': 'Melaine', 'telefone': '3333-7766'}}  # noqa

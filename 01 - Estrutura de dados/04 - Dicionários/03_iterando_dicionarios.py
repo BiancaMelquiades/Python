@@ -1,3 +1,4 @@
+#  acessando as chaves
 contatos = {
     "guilherme@gmail.com": {"nome": "Guilherme", "telefone": "3333-2221"},
     "giovanna@gmail.com": {"nome": "Giovanna", "telefone": "3443-2121"},
@@ -5,10 +6,12 @@ contatos = {
     "melaine@gmail.com": {"nome": "Melaine", "telefone": "3333-7766"},
 }
 
+# opção 1
 for chave in contatos:
     print(chave, contatos[chave])
 
 print("=" * 100)
 
+# opção 2 - mais organizada e legível
 for chave, valor in contatos.items():
     print(chave, valor)

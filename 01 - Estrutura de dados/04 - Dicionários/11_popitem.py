@@ -1,3 +1,4 @@
+#  a diferença do pop é que ele remove na sequência e se estiver vazio da um #keyerror
 contatos = {"guilherme@gmail.com": {"nome": "Guilherme", "telefone": "3333-2221"}}
 
 resultado = contatos.popitem()  # ('guilherme@gmail.com', {'nome': 'Guilherme', 'telefone': '3333-2221'})
